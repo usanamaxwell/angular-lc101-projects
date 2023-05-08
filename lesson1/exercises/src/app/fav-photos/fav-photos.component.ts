@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./fav-photos.component.css']
 })
 export class FavPhotosComponent implements OnInit {
-  photosTitle = 'Photo/Image Section Title Here';
-  image1 = 'https://www.launchcode.org/assets/icons/target-00c7a0bc7776901e3c5cdc4c36c465f19e41a249bc7267a595f0bfa14ab944b7.png';
-  image2 = '';
-  image3 = '';
+  photosTitle = 'Photo Title';
+  image1 = 'https://travel.usnews.com/images/GettyImages-117211856_ozkPCCP.jpg';
+  image2 = 'https://www.sandals.com/blog/content/images/2022/11/Sandals-Grande-Antigua-Beach-Side-Couple.jpg';
+  image3 = 'https://static.theceomagazine.net/wp-content/uploads/2019/12/23084741/benagil-sea-cave.jpg';
 
   constructor() { }
 
