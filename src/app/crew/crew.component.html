@@ -1,7 +1,6 @@
 <h3>Crew</h3>
 <ul>
    <li *ngFor="let member of crew">
-
       <span *ngIf="memberBeingEdited !== member; else elseBlock">
          <!-- display state of member -->
          <span (click)="edit(member)" class="editable-text">{{member.name}}</span>
